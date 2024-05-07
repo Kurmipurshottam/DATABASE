@@ -42,7 +42,8 @@ INSERT INTO Bank_Details (Branch_id, Branch_name, Branch_city) VALUES
 (105, "Kotak Mahindra", "Palanpur");
 
 -- Insert data into the Loan_details
-INSERT INTO Loan_details (Loan_no, Loan_amount, Loan_type, Branch_id, account_holders_id) VALUES
+INSERT INTO Loan_details 
+VALUES
 (10, 100000, 'Student Loan', 101, 1),
 (20, 100000, 'Home Equity Loan', 102, 2),
 (30, 50000, 'Auto Loan', 102, 2),
@@ -50,7 +51,9 @@ INSERT INTO Loan_details (Loan_no, Loan_amount, Loan_type, Branch_id, account_ho
 (50, 350000, 'Small Business Loan', 104, 3);
 
 -- Insert data into the Account_holder table
-INSERT INTO Account_holder (account_holders_id, account_holders_name, City, Contact, Date_of_account_created, Account_status, Account_type, Balance) VALUES
+INSERT INTO Account_holder (account_holders_id, account_holders_name, City, Contact, Date_of_account_created, 
+Account_status, Account_type, Balance) 
+VALUES
 (1, "SAURABH", "Ahmedabad", "9506510346", '2013-05-15', "Active", "Savings", 50000),
 (2, "NIKHIL", "Surat", "9865243687", '2013-04-14', "Terminated", "Current", 60000),
 (3, "SMIT", "Rajkot", "9998676647", '2013-05-02', "Active", "Fixed Deposite", 80000),
