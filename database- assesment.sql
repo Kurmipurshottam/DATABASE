@@ -55,10 +55,10 @@ INSERT INTO Account_holder (account_holders_id, account_holders_name, City, Cont
 Account_status, Account_type, Balance) 
 VALUES
 (1, "SAURABH", "Ahmedabad", "9506510346", '2013-05-15', "Active", "Savings", 50000),
-(2, "NIKHIL", "Surat", "9865243687", '2013-04-14', "Terminated", "Current", 60000),
+(2, "NIKHIL", "Surat", "9865243687", '2013-04-14', "NonActive", "Current", 60000),
 (3, "SMIT", "Rajkot", "9998676647", '2013-05-02', "Active", "Fixed Deposite", 80000),
 (4, "AJIT", "Ahmedabad", "6359452317", '2013-05-15', "Active", "Recurring Deposite", 30000),
-(5, "PRASHANT", "Surat", "9106523346", '2013-05-20', "Terminated", "Savings", 80000);
+(5, "PRASHANT", "Surat", "9106523346", '2013-05-20', "NonActive", "Savings", 80000);
 
 -- Deduct $100 from account A 
 
