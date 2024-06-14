@@ -1,0 +1,121 @@
+Database:-
+
+Database is used to store large amount of data.
+
+per company there is only one database but it can have
+multiple table
+
+SQL:-
+
+Structured Query Language
+
+---> It is used to store the data in a structured format
+using rows and columns(tables)
+
+
+mysql
+oracle
+mongodb
+sqlite3
+
+mysql:-localhost:-127.0.0.1
+Port:-3308
+
+XAMPP
+
+Database Creation:-
+
+create database databasename
+
+To view all databases:-
+
+SHOW DATABASES
+
+int:-11
+varchar-0 to 255
+
+Table Creation:-
+CREATE TABLE student
+(
+  student_id int,
+  student_name varchar(40),
+  student_subject varchar(40)
+    
+    
+    
+    
+    
+    
+ )
+Insertion of values:-
+
+INSERT INTO student(student_id,student_name,student_subject) VALUES(1,"Nikhil","Python");
+INSERT INTO student(student_id,student_name,student_subject) VALUES(2,"Purshottamm","Java");
+INSERT INTO student(student_id,student_name,student_subject) VALUES(3,"Smit","WD");
+INSERT INTO student(student_id,student_name,student_subject) VALUES(4,"Om","C++");
+INSERT INTO student(student_id,student_name,student_subject) VALUES(5,"Priyanka","Database");
+
+To change the column name:-
+
+ALTER TABLE student CHANGE student_id stu_id int
+
+
+To add a new column:-
+
+ALTER TABLE student ADD stu_marks int 
+
+
+update values in table:-
+
+UPDATE student SET student_name="Manav" WHERE stu_id=4
+
+UPDATE student SET student_subject="Flutter" WHERE stu_id=5
+
+
+Delete a particular value from table:-
+
+DELETE FROM student WHERE stu_id=2
+
+DELETE FROM student WHERE student_subject="Python"
+
+Delete all the values from table:-
+
+TRUNCATE TABLE student
+
+To delete the whole table:-
+
+DROP TABLE student
+
+
+Difference Between Truncate and Drop?
+
+---> Truncate will delete all the data from table and drop will delete the whole
+table
+
+
+Task:- create database company and create table employee and add following details:-
+
+1) employee_id
+2) employee_name
+3) employee_salary
+4) employee_address
+
+Add employee bonus field in a table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
